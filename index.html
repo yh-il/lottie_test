@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Bodymovin Demo</title>
+</head>
+<body>
+
+<div id="bm"></div>
+
+<!-- Scripts -->
+<script src="./lottie.js"></script>
+<script>
+lottie.loadAnimation({
+    container: document.getElementById('bm'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'data.json'
+});
+</script>
+
+</html>
